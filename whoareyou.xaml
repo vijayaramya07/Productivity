@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.whoareyou">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+
+                <Label Text="WHO ARE YOU?" Padding="20" HorizontalTextAlignment="Center" Font="Bold,25" TextDecorations="None" CharacterSpacing="8"  TextColor="DarkBlue"/>
+
+                <Label FontSize="Medium" Padding="35"  VerticalOptions="Center" HorizontalTextAlignment="Center" FontAttributes="Italic" TextDecorations="None" TextColor="White" BackgroundColor="DarkBlue">
+                    <Label.Text>
+                        "When we consciously acknowledge and accept who we are to our core and what we desire most in this world, we find that we can be more open, honest, and truthful to those who we surround ourselves with. Who are you? That is sometimes a really difficult question for many of us to answer. You are on your very own journey to becoming more self-aware, and you deserve to be heard."
+                    </Label.Text>
+                </Label>
+
+                <Label Text="I AM A HUMAN BEING THAT..." FontSize="Medium" Padding="20"  HorizontalTextAlignment="Center" Font="Bold,20" TextDecorations="None" CharacterSpacing="2"  TextColor="DarkBlue"/>
+
+                <Label Text="LOVES" FontSize="Medium" Padding="20"  HorizontalTextAlignment="Start" Font="Bold,20" TextDecorations="None" CharacterSpacing="2"  TextColor="DarkBlue"/>
+                <Entry x:Name="LOVES" ></Entry>
+                <Label Text="WANTS TO"  FontSize="Medium" Padding="20"  HorizontalTextAlignment="Start" Font="Bold,20" TextDecorations="None" CharacterSpacing="2"  TextColor="DarkBlue"/>
+                <Entry x:Name="WANTS"></Entry>
+                <Label Text="HAS THE GOAL OF"  FontSize="Medium" Padding="20"  HorizontalTextAlignment="Start" Font="Bold,20" TextDecorations="None" CharacterSpacing="2"  TextColor="DarkBlue"/>
+                <Entry x:Name="GOAL"></Entry>
+                <Label Text="USED TO BE AFRAID OF"  FontSize="Medium" Padding="20"  HorizontalTextAlignment="Start" Font="Bold,20" TextDecorations="None" CharacterSpacing="2"  TextColor="DarkBlue"/>
+                <Entry x:Name="AFRAID"></Entry>
+                <Label Text="IS DRIVEN BY"  FontSize="Medium" Padding="20"  HorizontalTextAlignment="Start" Font="Bold,20" TextDecorations="None" CharacterSpacing="2"  TextColor="DarkBlue"/>
+                <Entry x:Name="DRIVEN"></Entry>
+                <Label Text="IS INSPIRED BY"  FontSize="Medium" Padding="20"  HorizontalTextAlignment="Start" Font="Bold,20" TextDecorations="None" CharacterSpacing="2"  TextColor="DarkBlue"/>
+                <Entry x:Name="INSPIRED"></Entry>
+                <Label Text="WHO NOTICES "  FontSize="Medium" Padding="20"  HorizontalTextAlignment="Start" Font="Bold,20" TextDecorations="None" CharacterSpacing="2"  TextColor="DarkBlue"/>
+                <Entry x:Name="NOTICES"></Entry>
+                <Label Text="HAS A HABIT OF"  FontSize="Medium" Padding="20"  HorizontalTextAlignment="Start" Font="Bold,20" TextDecorations="None" CharacterSpacing="2"  TextColor="DarkBlue"/>
+                <Entry x:Name="HABIT"></Entry>
+                <Label Text="IS HAPPIEST WHEN"  FontSize="Medium" Padding="20"  HorizontalTextAlignment="Start" Font="Bold,20" TextDecorations="None" CharacterSpacing="2"  TextColor="DarkBlue"/>
+                <Entry x:Name="HAPPIEST" ></Entry>
+                <Label Text="GETS DISAPPOINTED BY"  FontSize="Medium" Padding="20"  HorizontalTextAlignment="Start" Font="Bold,20" TextDecorations="None" CharacterSpacing="2"  TextColor="DarkBlue"/>
+                <Entry x:Name="DISAPPOINTED"></Entry>
+                <Label Text="WISHES I COULD"  FontSize="Medium" Padding="20"  HorizontalTextAlignment="Start" Font="Bold,20" TextDecorations="None" CharacterSpacing="2"  TextColor="DarkBlue"/>
+                <Entry x:Name="WISHES"></Entry>
+                <Label Text="BELIEVES IN"  FontSize="Medium" Padding="20"  HorizontalTextAlignment="Start" Font="Bold,20" TextDecorations="None" CharacterSpacing="2"  TextColor="DarkBlue"/>
+                <Entry x:Name="VELIEVES"></Entry>
+                <Label Text="WOULD GIVE"  FontSize="Medium" Padding="20"  HorizontalTextAlignment="Start" Font="Bold,20" TextDecorations="None" CharacterSpacing="2"  TextColor="DarkBlue"/>
+                <Entry x:Name="GIVE"></Entry>
+                <Label Text="WILL ONE DAY"  FontSize="Medium" Padding="20"  HorizontalTextAlignment="Start" Font="Bold,20" TextDecorations="None" CharacterSpacing="2"  TextColor="DarkBlue"/>
+                <Entry x:Name="ONEDAY"></Entry>
+
+               
+                <Label Text="@Therapy WorkSheets"  FontSize="Small" Padding="20"  HorizontalTextAlignment="Center" Font="Bold,15" TextDecorations="Underline" CharacterSpacing="2"  TextColor="DarkBlue"/>
+            </StackLayout>
+
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

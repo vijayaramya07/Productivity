@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.rateyourthinking">
+    <ScrollView>
+        <StackLayout>
+
+            <Label Text="RATE YOUR THINKING" Padding="20" HorizontalTextAlignment="Center" Font="Bold,25" TextDecorations="None" CharacterSpacing="4"  TextColor="DarkBlue"/>
+
+            <Label FontSize="Medium" Padding="35"  VerticalOptions="Center" HorizontalTextAlignment="Center" FontAttributes="Italic" TextDecorations="None" TextColor="White" BackgroundColor="DarkBlue">
+                <Label.Text>
+                    "When we are actively aware of how we see ourselves and how we show up in the world, our view of our own being evolves and grows. This exercise will help you to zoom in and focus on the areas that are most important for a holistic approach at becoming self-aware. With each area, try to be completely honest with yourself. After all, this is about the journey and the process of becoming more self-aware."
+                </Label.Text>
+            </Label>
+            <Label Text="BELIEF WITHIN YOURSELF" Padding="30" HorizontalTextAlignment="Center" Font="Bold,20" TextDecorations="None" CharacterSpacing="3"  TextColor="DarkBlue"/>
+            <Slider x:Name="Rateyourthinking" Minimum="0" Maximum="10" HeightRequest="50" MaximumTrackColor="DarkRed" MinimumTrackColor="Darkblue"/>
+
+            <Label Text="ABILITY TO BE POSITIVE" Padding="30" HorizontalTextAlignment="Center" Font="Bold,20" TextDecorations="None" CharacterSpacing="3"  TextColor="DarkBlue"/>
+            <Slider x:Name="Rateyourthinking1" Minimum="0" Maximum="10" HeightRequest="50" MaximumTrackColor="DarkRed" MinimumTrackColor="Darkblue"/>
+
+            <Label Text="FLEXIBLE ATTITUDE" Padding="30" HorizontalTextAlignment="Center" Font="Bold,20" TextDecorations="None" CharacterSpacing="3"  TextColor="DarkBlue"/>
+            <Slider x:Name="Rateyourthinking2" Minimum="0" Maximum="10" HeightRequest="50" MaximumTrackColor="DarkRed" MinimumTrackColor="Darkblue"/>
+
+            <Label Text="DECISION MAKING" Padding="30" HorizontalTextAlignment="Center" Font="Bold,20" TextDecorations="None" CharacterSpacing="3"  TextColor="DarkBlue"/>
+            <Slider x:Name="Rateyourthinking3" Minimum="0" Maximum="10" HeightRequest="50" MaximumTrackColor="DarkRed" MinimumTrackColor="Darkblue"/>
+
+            <Label Text="ABILITY TO STICK TO GOALS" Padding="30" HorizontalTextAlignment="Center" Font="Bold,20" TextDecorations="None" CharacterSpacing="3"  TextColor="DarkBlue"/>
+            <Slider x:Name="Rateyourthinking4" Minimum="0" Maximum="10" HeightRequest="50" MaximumTrackColor="DarkRed" MinimumTrackColor="Darkblue"/>
+
+            <Label Text="SELF-REFLECTION" Padding="30" HorizontalTextAlignment="Center" Font="Bold,20" TextDecorations="None" CharacterSpacing="3"  TextColor="DarkBlue"/>
+            <Slider x:Name="Rateyourthinking5" Minimum="0" Maximum="10" HeightRequest="50" MaximumTrackColor="DarkRed" MinimumTrackColor="Darkblue"/>
+
+            <Label Text="DESIRE TO LEARN AND GROW" Padding="30" HorizontalTextAlignment="Center" Font="Bold,20" TextDecorations="None" CharacterSpacing="3"  TextColor="DarkBlue"/>
+            <Slider x:Name="Rateyourthinking6" Minimum="0" Maximum="10" HeightRequest="50" MaximumTrackColor="DarkRed" MinimumTrackColor="Darkblue"/>
+
+            <Label Text="@Therapy WorkSheets"  FontSize="Small" Padding="20"  HorizontalTextAlignment="Center" Font="Bold,15" TextDecorations="Underline" CharacterSpacing="2"  TextColor="DarkBlue"/>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

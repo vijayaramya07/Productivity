@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.goodbyeinsecurities">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+
+                <Label Text="GOODBYE INSECURITIES?" Padding="20" HorizontalTextAlignment="Center" Font="Bold,25" TextDecorations="None" CharacterSpacing="8"  TextColor="DarkBlue"/>
+
+                <Label FontSize="Medium" Padding="25"  VerticalOptions="Center" HorizontalTextAlignment="Center" FontAttributes="Italic" TextDecorations="None" TextColor="White" BackgroundColor="DarkBlue">
+                    <Label.Text>
+                       " How can you be more secure about this aspect of yourself?"
+                    </Label.Text>
+                </Label>
+
+   
+                <Label Text="GOAL : What do you need to achieve in order to remove this insecurities?" FontSize="Medium" Padding="30" HorizontalTextAlignment="Start" Font="Bold,20" TextDecorations="None" CharacterSpacing="2"  TextColor="DarkBlue"/>
+                <Entry x:Name="GOAL" ></Entry>
+                <Entry x:Name="GOAL1" ></Entry>
+
+
+                <Label Text="PLAN : What do you need to do in order to achieve the above goal?" FontSize="Medium" Padding="30" HorizontalTextAlignment="Start" Font="Bold,20" TextDecorations="None" CharacterSpacing="2"  TextColor="DarkBlue"/>
+                <Entry x:Name="PLAN" ></Entry>
+                <Entry x:Name="PLAN1" ></Entry>
+                <Entry x:Name="PLAN2" ></Entry>
+
+
+                <Label Text="OBSTACLE : What fear will you need to overcome in order to start working on this aspect of yourself?" FontSize="Medium" Padding="30" HorizontalTextAlignment="Start" Font="Bold,20" TextDecorations="None" CharacterSpacing="2"  TextColor="DarkBlue"/>
+                <Entry x:Name="OBS" ></Entry>
+                <Entry x:Name="OBS1" ></Entry>
+
+
+                <Label Text="SUPPORT SYSTEM : What kind of support will you need in order to achieve this goal?" FontSize="Medium" Padding="30" HorizontalTextAlignment="Start" Font="Bold,20" TextDecorations="None" CharacterSpacing="2"  TextColor="DarkBlue"/>
+                <Entry x:Name="SS" ></Entry>
+                <Entry x:Name="SS1" ></Entry>
+
+                <Label Text="SUPPORT SYSTEM : Who can be your support system? Who believes in you and can encourage you to keep pushing past your fears? Who can provide affrimations and reminders of your potential?" FontSize="Medium" Padding="30" HorizontalTextAlignment="Start" Font="Bold,20" TextDecorations="None" CharacterSpacing="2"  TextColor="DarkBlue"/>
+                <Entry x:Name="SS2" ></Entry>
+                <Entry x:Name="SS3" ></Entry>
+
+
+
+
+
+                <Label Text="@Therapy WorkSheets"  FontSize="Small" Padding="50"  HorizontalTextAlignment="Center" Font="Bold,15" TextDecorations="Underline" CharacterSpacing="2"  TextColor="DarkBlue"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

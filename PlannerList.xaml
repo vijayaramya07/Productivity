@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.PlannerList">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout >
+                <SearchBar Placeholder="Search here..."
+           CancelButtonColor="Black"
+           PlaceholderColor="Black"
+           TextColor="Black"
+           TextTransform="Lowercase"
+           HorizontalTextAlignment="Center"
+           FontSize="Medium"
+           FontAttributes="Italic" />
+                <Button Text="Home"  BackgroundColor="DarkBlue" TextColor="White" FontSize="Large" Font="Bold,20" Padding="35" ></Button>
+                <ProgressBar></ProgressBar>
+                <Button Text="IF YOU MEET YOURSELF WHAT COULD BE YOUR FIRST IMPRESSION" BackgroundColor="DarkBlue" Font="Bold,15" TextColor="White"  Padding="30" FontSize="Subtitle" VerticalOptions="Center"  Clicked="firstimpression_Clicked" ></Button>
+                <Button Text="WHO ARE YOU?" BackgroundColor="DarkBlue" TextColor="White"  Font="Bold,15"  Padding="30" FontSize="Subtitle" VerticalOptions="Center" x:Name = "whoareyou" Clicked="whoareyou_Clicked"></Button>
+                <Button Text="RATE YOUR THINKING" BackgroundColor="DarkBlue" TextColor="White"  Font="Bold,15"  Padding="30" FontSize="Subtitle" VerticalOptions="Center" x:Name = "rateyourthinking" Clicked="rateyourthinking_Clicked"></Button>
+                <Button Text="YOUR DEEP DESIRES" x:Name = "deepdesires" Clicked="deepdesires_Clicked" BackgroundColor="DarkBlue" TextColor="White"  Font="Bold,15"  Padding="30" FontSize="Subtitle" VerticalOptions="Center"></Button>
+                <Button Text="WIPE AWAY MY WORRIES" x:Name = "wipeworries" Clicked="wipeworries_Clicked" BackgroundColor="DarkBlue" TextColor="White"  Font="Bold,15"  Padding="30" FontSize="Subtitle" VerticalOptions="Center"></Button>
+                <Button Text="GOOD BYE, INSECURITIES" x:Name = "insecurities" Clicked="insecurities_Clicked" BackgroundColor="DarkBlue" TextColor="White"  Font="Bold,15"  Padding="30" FontSize="Subtitle" VerticalOptions="Center"></Button>
+                <Button Text="SELF-MANAGEMENT SPOT YOUR TRIGGER" x:Name = "trigger" Clicked="trigger_Clicked" BackgroundColor="DarkBlue" TextColor="White"  Font="Bold,15" Padding="30" FontSize="Subtitle" VerticalOptions="Center"></Button>
+                
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

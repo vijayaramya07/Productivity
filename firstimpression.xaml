@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.firstimpression">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Label Text="IF YOU MET YOURSELF, WHAT WOULD BE YOUR FIRST IMPRESSION?" Padding="20" HorizontalTextAlignment="Center" Font="Bold,25" TextDecorations="None" CharacterSpacing="3"  TextColor="DarkBlue"/>
+
+                <Label FontSize="Medium" Padding="30"  VerticalOptions="Center" HorizontalTextAlignment="Center" FontAttributes="Italic" TextDecorations="None" TextColor="White" BackgroundColor="DarkBlue">
+                    <Label.Text>
+                        "It can be difficult to imagine what it would be like to interact with ourselves as an outsider. But the more we gain a clear picture of what this would be like, the better we can understand how we affect others, both negatively and positively. This clarity can give us the ability to empathize with others."
+                    </Label.Text>
+
+                </Label>
+                <Label Text="IF YOU HAD THE OPPORTUNITY TO MEET YOURSELF, WHAT WOULD YOU LIKE MOST AND LEAST ABOUT YOURSELF AS A PERSON." FontSize="Medium" Padding="20"  HorizontalTextAlignment="Center" Font="Bold,18" TextDecorations="None" CharacterSpacing="2"  TextColor="DarkBlue"/>
+
+
+                <Editor Text="" Placeholder="Write here now!(Limit 500 words)" PlaceholderColor="Black"  HeightRequest="500" />
+
+
+
+                <Label Text="@Therapy WorkSheets"  FontSize="Small" Padding="20"  HorizontalTextAlignment="Center" Font="Bold,15" TextDecorations="Underline" CharacterSpacing="2"  TextColor="DarkBlue"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

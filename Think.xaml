@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.Think">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+
+            <Label Text="SELF- MANAGEMENT AFFIRMATIONS" Padding="20" HorizontalTextAlignment="Center" Font="Bold,25" TextDecorations="None" CharacterSpacing="8"  TextColor="DarkBlue"/>
+
+
+
+                <Label Text="Think, Think, Think ..." FontSize="Medium" Padding="20"  HorizontalTextAlignment="Center" Font="Bold,20" TextDecorations="None" CharacterSpacing="2"  TextColor="DarkBlue"/>
+
+
+                <Entry x:Name="THINKS"></Entry>
+                <Entry x:Name="THINKS1"></Entry>
+                <Entry x:Name="THINKS2"></Entry>
+                <Entry x:Name="THINKS3"></Entry>
+                <Entry x:Name="THINKS4"></Entry>
+                <Entry x:Name="THINKS5"></Entry>
+                <Entry x:Name="THINKS6"></Entry>
+                <Entry x:Name="THINKS7"></Entry>
+                <Entry x:Name="THINKS8"></Entry>
+                <Entry x:Name="THINKS9"></Entry>
+                <Entry x:Name="THINKS10"></Entry>
+                <Entry x:Name="THINKS11"></Entry>
+                <Entry x:Name="THINKS12"></Entry>
+                <Entry x:Name="THINKS13"></Entry>
+                <Entry x:Name="THINKS14"></Entry>
+                <Entry x:Name="THINKS15"></Entry>
+                <Entry x:Name="THINKS16"></Entry>
+                <Entry x:Name="THINKS17"></Entry>
+                <Entry x:Name="THINKS18"></Entry>
+                <Entry x:Name="THINKS19"></Entry>
+                <Entry x:Name="THINKS20"></Entry>
+               
+            </StackLayout>
+
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

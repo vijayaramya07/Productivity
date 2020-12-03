@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.yourdeepdesires">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+
+                <Label Text="YOUR DEEP DESIRES?" Padding="20" HorizontalTextAlignment="Center" Font="Bold,25" TextDecorations="None" CharacterSpacing="8"  TextColor="DarkBlue"/>
+
+                <Label FontSize="Medium" Padding="18"  VerticalOptions="Center" HorizontalTextAlignment="Center" FontAttributes="Italic" TextDecorations="None" TextColor="White" BackgroundColor="DarkBlue">
+                    <Label.Text>
+                        "Looking at the people you admire and the qualities they possess can help you understand who you deeply desire to become. Sometimes we unconsciously hide our true ambitions and desires because of what we've been conditioned to believe about ourselves. Put all your fears and dobut aside, let's dig deep into those hidden ambition and desires and boldly put them into the world. Who are they people you admire? What is it about them that intrigues you or inspires you? Why do you support what they're doing? Why do you feel related to them? Your answers in this exercise can reveal the things you deeply desire in your life journey and the qualities you'd ideally like to posses."
+                    </Label.Text>
+                </Label>
+                <Frame WidthRequest="20" HeightRequest="20" Margin="3,6,3,0" CornerRadius="10">
+                    <Label Text="WHO DO YOU ADMIRE WHO INSPIRES YOU?" FontSize="Subtitle" Font="Bold,15" HorizontalTextAlignment="Center"  TextColor="DarkBlue"/>
+                </Frame>
+                <Editor Text="" Placeholder="Write here now!(Limit 100 words)" PlaceholderColor="Black"  HeightRequest="100" />
+
+                <Frame WidthRequest="20" HeightRequest="20" Margin="3,6,3,0" CornerRadius="10">
+                    <Label Text="WHAT DO YOU LIKE ABOUT THEM?" FontSize="Subtitle" Font="Bold,15" HorizontalTextAlignment="Center"  TextColor="DarkBlue"/>
+                </Frame>
+                <Editor Text="" Placeholder="Write here now!(Limit 500 words)" PlaceholderColor="Black"  HeightRequest="500" />
+
+                <Frame WidthRequest="20" HeightRequest="20" Margin="3,6,3,0" CornerRadius="10">
+                    <Label Text="WHO DO YOU ADMIRE WHO INSPIRES YOU?" FontSize="Subtitle" Font="Bold,15" HorizontalTextAlignment="Center"  TextColor="DarkBlue"/>
+                </Frame>
+                <Editor Text="" Placeholder="Write here now!(Limit 100 words)" PlaceholderColor="Black"  HeightRequest="100" />
+
+                <Frame WidthRequest="20" HeightRequest="20" Margin="3,6,3,0" CornerRadius="10">
+                    <Label Text="WHAT DO YOU LIKE ABOUT THEM?" FontSize="Subtitle" Font="Bold,15" HorizontalTextAlignment="Center"  TextColor="DarkBlue"/>
+                </Frame>
+                <Editor Text="" Placeholder="Write here now!(Limit 500 words)" PlaceholderColor="Black"  HeightRequest="500" />
+
+                <Frame WidthRequest="20" HeightRequest="20" Margin="3,6,3,0" CornerRadius="10">
+                    <Label Text="WHO DO YOU ADMIRE WHO INSPIRES YOU?" FontSize="Subtitle" Font="Bold,15" HorizontalTextAlignment="Center"  TextColor="DarkBlue"/>
+                </Frame>
+                <Editor Text="" Placeholder="Write here now!(Limit 100 words)" PlaceholderColor="Black"  HeightRequest="100" />
+
+                <Frame WidthRequest="20" HeightRequest="20" Margin="3,6,3,0" CornerRadius="10">
+                    <Label Text="WHAT DO YOU LIKE ABOUT THEM?" FontSize="Subtitle" Font="Bold,15" HorizontalTextAlignment="Center"  TextColor="DarkBlue"/>
+                </Frame>
+                <Editor Text="" Placeholder="Write here now!(Limit 500 words)" PlaceholderColor="Black"  HeightRequest="500" />
+
+                <Frame WidthRequest="20" HeightRequest="20" Margin="3,6,3,0" CornerRadius="10">
+                    <Label Text="WHO DO YOU ADMIRE WHO INSPIRES YOU?" FontSize="Subtitle" Font="Bold,15" HorizontalTextAlignment="Center"  TextColor="DarkBlue"/>
+                </Frame>
+                <Editor Text="" Placeholder="Write here now!(Limit 100 words)" PlaceholderColor="Black"  HeightRequest="100" />
+
+                <Frame WidthRequest="20" HeightRequest="20" Margin="3,6,3,0" CornerRadius="10">
+                    <Label Text="WHAT DO YOU LIKE ABOUT THEM?" FontSize="Subtitle" Font="Bold,15" HorizontalTextAlignment="Center"  TextColor="DarkBlue"/>
+                </Frame>
+                <Editor Text="" Placeholder="Write here now!(Limit 500 words)" PlaceholderColor="Black"  HeightRequest="500" />
+
+
+                <Label Text="@Therapy WorkSheets"  FontSize="Small" Padding="20"  HorizontalTextAlignment="Center" Font="Bold,15" TextDecorations="Underline" CharacterSpacing="2"  TextColor="DarkBlue"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

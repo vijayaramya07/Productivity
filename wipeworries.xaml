@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.wipeworries">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Label Text="WIPES AWAY MY WORRIES" Padding="30" HorizontalTextAlignment="Center" Font="Bold,26" TextDecorations="None" CharacterSpacing="8"  TextColor="DarkBlue"/>
+
+                <Label Text="I AM WORRIED ABOUT" FontSize="Medium" Padding="20"  HorizontalTextAlignment="Start" Font="Bold,18" TextDecorations="None" CharacterSpacing="2"  TextColor="DarkBlue"/>
+                <Entry x:Name="Worried" ></Entry>
+
+                <Label Text="I AM REALLY AFRAID THAT" FontSize="Medium" Padding="20"  HorizontalTextAlignment="Start" Font="Bold,18" TextDecorations="None" CharacterSpacing="2"  TextColor="DarkBlue"/>
+                <Entry x:Name="afraid" ></Entry>
+
+                <Label Text="THIS WORRY IS TRIGGERING MY FEAR OF" FontSize="Medium" Padding="20"  HorizontalTextAlignment="Start" Font="Bold,18" TextDecorations="None" CharacterSpacing="2"  TextColor="DarkBlue"/>
+                <Entry x:Name="Worry" ></Entry>
+
+                <Label Text="WHY DO I HAVE THIS FEAR? HOW DO IT ALL START?" FontSize="Medium" Padding="20"  HorizontalTextAlignment="Start" Font="Bold,18" TextDecorations="None" CharacterSpacing="2"  TextColor="DarkBlue"/>
+                <Editor Text="" Placeholder="Write here now!(Limit 300 words)" PlaceholderColor="Black"  HeightRequest="300" />
+
+                <Label Text="THE WORST THAT CAN HAPPEN IS" FontSize="Medium" Padding="20"  HorizontalTextAlignment="Start" Font="Bold,18" TextDecorations="None" CharacterSpacing="2"  TextColor="DarkBlue"/>
+                <Entry x:Name="Worst" ></Entry>
+
+                <Label Text="THE WORST CASE SCENARIO WOULD TAKE AWAY MY DEEP NEED FOR" FontSize="Medium" Padding="20"  HorizontalTextAlignment="Start" Font="Bold,18" TextDecorations="None" CharacterSpacing="2"  TextColor="DarkBlue"/>
+                <Entry x:Name="Scenario" ></Entry>
+
+                <Label Text="CAN THE NEED BE REPLACED OR GAINED ELSEWHERE" FontSize="Medium" Padding="20"  HorizontalTextAlignment="Start" Font="Bold,18" TextDecorations="None" CharacterSpacing="2"  TextColor="DarkBlue"/>
+                <Editor Text="" Placeholder="Write here now!(Limit 300 words)" PlaceholderColor="Black"  HeightRequest="300" />
+
+                <Label Text="THIS WORRY IS TRIGGERING MY FEAR OF" FontSize="Medium" Padding="20"  HorizontalTextAlignment="Start" Font="Bold,18" TextDecorations="None" CharacterSpacing="2"  TextColor="DarkBlue"/>
+                <Entry x:Name="Triggering" ></Entry>
+
+                <Label Text="HOW WOULD I COPE IF THE WORST WAS TO HAPPEN? HOW WOULD I GET BACKUP AND KEEP GOING?" FontSize="Medium" Padding="20"  HorizontalTextAlignment="Start" Font="Bold,18" TextDecorations="None" CharacterSpacing="2"  TextColor="DarkBlue"/>
+                <Entry x:Name="Would" ></Entry>
+
+                <Label Text="THE BEST THAT CAN HAPPEN IS" FontSize="Medium" Padding="20"  HorizontalTextAlignment="Start" Font="Bold,18" TextDecorations="None" CharacterSpacing="2"  TextColor="DarkBlue"/>
+                <Entry x:Name="Best" ></Entry>
+
+                <Label Text="WHAT CAN I DO NOW TO ENSURE THE MOST POSITION OUTCOMES?" FontSize="Medium" Padding="20"  HorizontalTextAlignment="Start" Font="Bold,18" TextDecorations="None" CharacterSpacing="2"  TextColor="DarkBlue"/>
+                <Entry x:Name="Ensure" ></Entry>
+
+                <Label Text="@Therapy WorkSheets"  FontSize="Small" Padding="20"  HorizontalTextAlignment="Center" Font="Bold,15" TextDecorations="Underline" CharacterSpacing="2"  TextColor="DarkBlue"/>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
