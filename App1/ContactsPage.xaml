@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.ContactsPage">
+    <ContentPage.ToolbarItems>
+       
+        <ToolbarItem Text="REGISTER"
+                     Clicked="ToolbarItem_Clicked"/>
+
+        <ToolbarItem Text="LOGIN"
+                     Clicked="ToolbarItem_Clicked_1"/>
+
+        <ToolbarItem Text="DATALIST" 
+                     Clicked="ToolbarItem_Clicked_2"/>
+
+    </ContentPage.ToolbarItems>
+  
+    <ContentPage.Content>
+        
+        <StackLayout>
+            <Label Text="WELCOME TO PRODUCTIVITY PLANNER" Padding="30" HorizontalTextAlignment="Center" Font="Bold,25" TextDecorations="None"  CharacterSpacing="1" TextColor="DarkBlue"/>
+
+            <Label Text="Getting Organized is Easy Staying Organized Requires Discipline" Padding="10" HorizontalTextAlignment="Center" FontSize="Caption" Font="Italic,18" TextDecorations="None"  CharacterSpacing="1" TextColor="White"  BackgroundColor="DarkBlue"/>
+           
+                <Image Source="PRODUCTIVITY.jpg"
+                     HorizontalOptions="Center"
+                    VerticalOptions="CenterAndExpand"/>
+          
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

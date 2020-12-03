@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.MainPage">
+
+    <StackLayout Margin="20, 0, 20, 0">
+
+        <Label Text="REGISTRATION PAGE" Padding="20" HorizontalTextAlignment="Center" Font="Bold,20" TextDecorations="None"  CharacterSpacing="2" TextColor="DarkBlue"/>
+        <Label Text="Please ! Register Here Now" Padding="30" HorizontalTextAlignment="Center" Font="Bold,20" TextDecorations="None"  CharacterSpacing="1" TextColor="DarkBlue"/>
+        <Entry x:Name="username" Placeholder="Username" BackgroundColor="LightSteelBlue" TextColor="Black" PlaceholderColor="Black" />
+        <Entry x:Name="firstname" Placeholder="First Name"  BackgroundColor="LightSteelBlue" TextColor="Black" PlaceholderColor="Black"/>
+        <Entry x:Name="lastname" Placeholder="Last Name" BackgroundColor="LightSteelBlue" TextColor="Black" PlaceholderColor="Black"/>
+        <Entry x:Name="emailid" Placeholder="Email Id" BackgroundColor="LightSteelBlue" TextColor="Black" PlaceholderColor="Black"/>
+        <Entry x:Name="password" Placeholder="Password"  BackgroundColor="LightSteelBlue" TextColor="Black" PlaceholderColor="Black"/>
+
+        <Button Text="REGISTER NOW"
+        x:Name="RegisterButton"
+        Clicked="RegisterButton_Clicked"
+                Margin="20, 10, 20, 0"
+                BackgroundColor="DarkBlue"
+                TextColor="white"/>
+     
+    </StackLayout>
+</ContentPage>
+
